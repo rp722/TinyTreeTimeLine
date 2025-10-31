@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Tree Timeline</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>🌱 小树苗成长记录</h1>
+  <input type="range" id="timeline" min="0" max="0" value="0" />
+  <div id="photo-container">
+    <img id="photo" src="" alt="Tree Photo" />
+    <div id="comments-layer"></div>
+  </div>
+  <form id="comment-form">
+    <input type="text" id="comment-input" placeholder="说点什么..." required />
+    <button type="submit">发送弹幕</button>
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
